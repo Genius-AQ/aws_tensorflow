@@ -1,0 +1,1 @@
+aws sagemaker-runtime invoke-endpoint --endpoint-name sagemaker-tensorflow-2019-08-12-02-00-38-416 --body "$(cat test1.csv)" --content-type text/csv output.txt
